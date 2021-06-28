@@ -1,0 +1,76 @@
+
+
+Work Directory ---> Staging Area ---> Local Repository ---> Remote Repository
+------------------------------------------------------------------------------
+
+
+Work Directory   ---> Staging Area      => git add[stage files]
+Staging Area     ---> Local Repository  => git commit
+Local Repository ---> Remote Repository => git push
+
+
+Work Directory   ---> Local Repository  => git mearge
+
+
+------------------------------------------------------------------------------
+
+Remote Repository ---> Local Repository => git fetch
+Local Repository  ---> Work Directory   => git checkout
+Remote Repository ---> Work Directory   => git clone / git pull
+
+------------------------------------------------------------------------------
+
+Work Directory && Staging Area     => git diff    //to show defarance betowin
+Work Directory && Local Repository => git diff HEAD 
+
+------------------------------------------------------------------------------
+
+git --version  
+git config --global user.name "Shantonu Acharjee"
+git config --global user.email "shantonuacharjee@gmail.com" / git config user.email "shantonuacharjee@gmail.com"
+git config --list // to show username &  email
+
+git init
+git status
+git add[file name] / git add --all / git add . /
+git commit[press 'i' + write your commit + press 'Esc' + press':' + press 'x' + press'enter']
+git commit -m"Enter Your commit mess"
+git log / git log --oneline
+git checkout [commit number] //Goback old commit
+git checkout master // come back on full project
+git diff // diff betown top 2 commit
+git diff[commit number commit +'space' number]
+git diff --staged // tow show top 2 commit diff afer stageing done
+git show[commit number] //to show, what we do on this commit
+
+
+
+
+
+git rm[file name] // to delate a file from git
+git restore --staged[file name] //to delate a file from git permanent
+git clean -f // to delate the untracked file 
+
+
+git clone[link] //download project wit commit
+git clone[link + 'your porject name'] //download the project file with your new name
+
+
+
+git branch[branch name] // Create a branch
+git branch //show all branch
+git checkout[branch name] // change your current branch
+git checkout -b [new branch name] // at a time create a new branch add switch on the new branch
+git merge[branch name] // for marge the all data on current branch
+git branch -D[branch name] // delete the branch
+
+
+git stash // put file on recile bin
+git stash pop // recycle from recile bin
+git stash list // show recycle bin list
+git stash pop[stash number] // recycle the paticular stash file
+
+
+
+touch .gitignore // to create git ignore file
+git push -u origin master // to push the code
