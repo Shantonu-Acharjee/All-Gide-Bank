@@ -1,8 +1,12 @@
 <link rel="shorcut icon" href="./photo/Shantonu favicon 16x16.png">
 
 <script src="https://kit.fontawesome.com/ab0e23d463.js" crossorigin="anonymous"></script>
-
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Merienda:wght@400;700&display=swap');
 font-family: 'Merienda', cursive;
 font-family: 'Merienda One', cursive;
+
+
+GOOGLE DRIVE PHOTO
+https://drive.google.com/thumbnail?id=14hz3ySPn-zBd4Tu3NtY1F05LSGdFfWvp

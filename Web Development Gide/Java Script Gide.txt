@@ -1,0 +1,1386 @@
+# Java Script Comments => 
+There are 2 Types of Comments :-
+
+1)Single Line Comment   [// Your text]
+2)Multiple Line Comment [/* Yorur text */]
+
+-------------------------------------------------------------------------
+
+# Java Script Variable =>
+There are 3 types of variable :-
+
+1)var
+2)let
+3)const[constant Variable]
+
+-------------------------------------------------------------------------
+
+# Java Script Data Types =>
+There are 7 types of data types :-
+
+1)String   ["Hello World"]
+2)Number   [25]
+3)Boolean  [true/false]
+4)Array    ["html","css","js"]
+5)Object   [{first:"Shantonu",last:"Acharjee"}]
+6)Null     [null]
+7)Undefined[var x]
+
+document.write(typeof [variable name]) // to chack the variable type
+
+-------------------------------------------------------------------------
+
+# Java Script Arithmetic Operators =>
+There are 8 types of Arithmetic Operators :-
+
+1) +  [Addition]
+2) -  [Subtraction]
+3) *  [Multiplication]
+4) ** [Exponentiation]
+5) /  [Division]
+6) %  [Modulus / Remainder]
+7) ++ [Increment]
+8) -- [Decrement]
+
+--------------------------------------------------------------------------
+
+# Java Script Assignment Operators =>
+There are 7 types of Assignment Operators:
+
+1) =  [x=y --> x=y]
+2) += [x += y --> x = x+y]
+3) -= [x -= y --> x = x-y]
+4) *= [x *= y --> x = x*y]
+5) /= [x /= y --> x = x/y]
+6) %= [x %= y --> x = x%y]
+7) **=[x **=y --> x =x**y]
+
+--------------------------------------------------------------------------
+
+# Java Script Comparison Operators => 
+There are 8 types of Comparison Operators:
+
+1) ==  [equal to]
+2) === [equal value & equal type]
+3) !=  [not equal]
+4) !== [not equal value & not equal type]
+5) >   [greater than]
+6) <   [less than]
+7) >=  [greater than or equal to]
+8) <=  [less than or equal to]
+
+----------------------------------------------------------------------------
+
+# Java Script Logical Operators =>
+There are 3 types of Logical Operators :
+
+1) && [Logical AND]
+2) || [Logical OR]
+3) !  [Logical NOT]
+
+----------------------------------------------------------------------------
+
+# Java Script Conditional Ternary Operator =>
+
+(condition) ? True Statement : False Statement ; --->
+
+
+var a = 15;
+var b;
+
+(a > 10) ? b = "Shantonu" : b = "Acharjee" ;
+document.write(b);
+
+----------------------------------------------------------------------------
+
+# Java Script Switch Statement =>
+
+
+switch (expression) {
+
+	case condition 1 : statement(s)
+	break;
+
+	case condition 2 : statement(s)
+	break;
+
+	case condition 3 : statement(s)
+	break;
+
+	default : statement(s)
+
+} --->
+
+
+
+
+var day = 0;
+switch (day){
+
+    case 0 : document.write("Today is Mon Day");
+    break;
+
+    case 1 : document.write("Today is Tues Day");
+    break;
+
+    case 2 : document.write("Today is wednes Day");
+    break;
+
+    case 3 : document.write("Today is Thurs Day");
+    break;
+
+    case 4 : document.write("Today is Fri Day");
+    break;
+
+    case 5 : document.write("Today is Satur Day");
+    break;
+
+    case 6 : case 7 : case 8 : document.write("Today is Sun Day");
+    break;
+
+    default : document.write("Enter The Valid Week Day");
+}
+------------------------------------------------------------------------
+
+# Java Script Alert Box =>
+
+alert("Hello Everybody")
+
+-----------------------------------------------------------------------
+
+# Java Script Confirm Box =>
+
+confirm('Do you like our Website ?'); ------------>
+
+var a = confirm('Do you like our Website ?');
+alert(a);--------->
+
+if(a){
+    alert('Thanks')
+}
+
+else{
+    alert('sorry')
+}------>
+
+---------------------------------------------------------------------
+
+# Java Script Prompt Box =>
+
+prompt('What is your Name'); ----->
+
+
+var a = prompt('What is your Name');
+alert(a);----->
+
+---------------------------------------------------------------------
+
+# Java Script Functions Syntax =>
+
+function functionName(){
+
+}
+
+functionName();----->
+
+
+
+function hello(){
+    document.write("Hello EveryBody")
+}
+
+hello(); ----->
+
+
+
+function functionName(parameter1, parameter2){
+
+}
+
+functionName(parameter1,parameter2);----->
+
+
+
+function sum(a, b){
+    document.write(a + b);
+}
+
+sum(10,20);----->
+
+
+
+function fullName(firstName = "Shantonu", lastName = "Acharjee"){
+    var a = "Hi " + firstName + lastName ;
+    return a;
+}
+
+var FULL_NAME = fullName('Srity','Acharjee');
+document.write(FULL_NAME);----->
+
+---------------------------------------------------------------------
+
+# Java Script Basic Events =>
+
+There are 13 types of Basic Events:
+
+1)  Click        (onclick)
+2)  Double Click (ondblclick)
+3)  Right Click  (oncontextmenu)
+4)  Mouse Hover  (onmouseenter)
+5)  Mouse Out    (onmouseout)
+6)  Mouse Down   (onmousedown)
+7)  Mouse Up     (onmouseup)
+8)  Key Press    (onkeypress)
+9)  Key Up       (onkeyup)
+10) Load         (onload)
+11) Unload       (onunload)
+12) Resize       (onresize)
+13) Scroll       (onscroll)
+
+--------------------------------------------------------------
+
+# Java Script Loops =>
+
+There are 5 types of Loops:
+
+1) while loop
+2) do/while loop
+3) for loop
+4) for/in loop
+5) forEach
+
+
+
+var a = 1;
+while(a <= 10){
+    document.write(a + " Shantonu Achajee <br> ")
+    a++;
+}----->
+
+
+
+var a = 1;
+
+do{
+
+    document.write('Shantonu Acharjee <br>');
+    a++;
+
+} while(a <= 10) ----->
+
+
+
+
+for(var a = 1; a < 10; a++){
+    document.write("Shantonu Achrjee <br>")
+}----->
+
+
+
+for(var a = 1; a < 10; a++){
+    if(a==3){
+        document.write("the number is" + a + '<br>') 
+        continue;
+    }
+
+    document.write(a + " Shantonu Achrjee <br>")
+}----->
+
+------------------------------------------------------------------
+
+# Java Script Nested Loop =>
+
+for(var a = 1; a <= 5; a++){
+    for(b = 1; b<= a; b++){
+        document.write(a);
+    }
+    document.write("<br>")
+}----->
+
+
+
+for(a=5; a>=1; a--){
+    for(b=1; b <= a; b++){
+        document.write(a)
+    }
+    document.write("<br>")
+}----->
+
+
+
+
+for(a = 5; a >= 1; a--){
+    for(b=a; b>= 1; b--){
+        document.write(b)
+    }
+
+    document.write('<br>')
+}----->
+
+
+---------------------------------------------------------------------
+
+# Java Script Array =>
+
+var ary = [10,20,30,40,50];
+document.write(ary[0])----->
+
+
+var a = new Array(1,2,3,4);
+document.write(a[2]);----->
+
+
+var ary = new Array();
+ary[0] = 10;
+ary[1] = 20;
+ary[2] = 30;
+ary[3] = 40;
+ary[4] = 50;
+
+document.write(ary[3])----->
+
+-----------------------------------------------------------------
+
+# Java Script Multidimensional Array =>
+
+var a =[
+    ["Harry",18,"Male","B.Com"],
+    [1,2,3,4],
+    [5,6,7,8],
+    [9,10,11,12]
+];
+
+document.write(a[0]);----->
+
+
+var a =[
+    ["Harry",18,"Male","B.Com"],
+    [1,2,3,4],
+    [5,6,7,8],
+    [9,10,11,12]
+];
+
+for(var b = 0; b < 4; b++){
+    document.write(a[b] + "<br>");
+}----->
+
+
+
+
+var a =[
+    ["Harry",18,"Male","B.Com"],
+    [1,2,3,4],
+    [5,6,7,8],
+    [9,10,11,12]
+];
+
+for(var b = 0; b < 4; b++){
+    for(var c = 0; c < 4 ; c++){
+        document.write(a[b][c]+" ");
+    }
+    document.write("<br>")
+}----->
+
+-------------------------------------------------------------------
+
+# Java Script Modify Array =>
+
+
+var a = ['Shantonu',18,'ENT'];
+document.write(a + '<br>');
+a[0] = 'Srity';
+document.write(a);----->
+
+
+
+var a = ['Shantonu' , 18,'ENT'];
+document.write(a + "<br>");
+
+delete a[1];
+document.write(a)----->
+
+--------------------------------------------------------------
+
+# Java Script Array Methods =>
+
+There are 24 Methods :
+
+1)  sort()
+2)  reverse()
+3)  pop()
+4)  push()
+5)  shift()
+6)  unshift()
+7)  concat()
+8)  join()
+9)  slice()
+10) splice()
+11) isArray()
+12) indexOf()
+13) lastIndexOf()
+14) entries()
+15) every()
+16) filter()
+17) find()
+18) findIndex()
+19) includes()
+20) some()
+21) forEach()
+22) toString()
+23) valueOf()
+24) fill()
+
+
+
+var a = ['d','c','b','a'];
+document.write(a + '<br>');
+a.sort();//make sequence
+document.write(a);----->
+
+
+var a = ['a','b','c','d'];
+document.write(a + '<br>');
+a.reverse();//make reverse sequence
+document.write(a);----->
+
+
+var a = ['a','c','d','f'];
+document.write(a + '<br>');
+a.pop();//delete the last item
+document.write(a);----->
+
+
+
+
+var a = ['a','c','d','f'];
+document.write(a + '<br>');
+a.push("g");// add a new item on last
+document.write(a);----->
+
+
+
+
+var a = ['a','c','d','f'];
+document.write(a + '<br>');
+a.shift();// to delete the first item
+document.write(a);----->
+
+
+var a = ['a','c','d','f'];
+document.write(a + '<br>');
+a.unshift("g");// add a new item on First
+document.write(a);----->
+
+
+
+
+var a,b;
+a = ['a','b','c','d'];
+b = ['e','f','g','h'];
+
+var c = a.concat(b);// marge tow array
+document.write(c);----->
+
+
+
+var a,b;
+a = ['a','b','c','d'];
+document.write(a + '<br>')
+b = a.join('--');
+document.write(b + '<br>');----->
+
+
+
+
+var a,b;
+a = ['a','b','c','d'];
+document.write(a + '<br>');
+b = a.slice(1,3); // for sliceing start from 1 & end in 3
+document.write(b);----->
+
+
+
+var a,b;
+a = ['a','b','c','d'];
+document.write(a + '<br>');
+a.splice(2,0,'g','h'); // (index, howmany delete i want, new value)
+document.write(a);----->
+
+
+
+
+var a,b;
+a = ['a','b','c','d'];
+document.write(a + '<br>');
+a.splice(2,1,'g','h'); // (index, howmany delete i want, new value)
+document.write(a);----->
+
+
+
+
+var a = ['Shantonu','Srity','Shamali','Nondita'];
+document.write(a + '<br>');
+var b = Array.isArray(a);
+document.write(b);----->
+
+
+
+var a = ['Shantonu','Srity','Shamali','Srity'];
+document.write(a + '<br>');
+var b = a.indexOf('Srity')// find the index number from first
+document.write(b + '<br>');----->
+
+
+
+
+var a = ['Shantonu','Srity','Shamali','Srity'];
+document.write(a + '<br>');
+var b = a.lastIndexOf('Srity')// find the index number from last
+document.write(b + '<br>');----->
+
+
+
+
+var a = ['Shantonu','Srity','Shamali','Srity'];
+var b = a.includes('Srity'); // to chack 'Srity' is avable or not
+document.write(b);----->
+
+
+
+
+var ages = [10,13,18,20];
+var adultAge = 18;
+var b = ages.some(checkAdult); // to chack there are any valu who is geter than or equal 18
+document.write(b + '<br');
+
+function checkAdult(age){
+    return age >= 18;
+}----->
+
+
+
+
+var ages = [10,13,18,20];
+var adultAge = 18;
+var b = ages.every(checkAdult);// to chack there are every valu who is geter than or equal 18
+document.write(b + '<br');
+
+function checkAdult(age){
+    return age >= 18;
+}----->
+
+
+
+
+var ages = [10,13,18,20];
+var adultAge = 18;
+document.write(ages + '<br>');
+var b = ages.find(checkAdult); // to chack there are every valu who is geter than or equal 18 and what is the value
+document.write(b + '<br>');
+
+
+function checkAdult(age){
+    return age > 18;
+}----->
+
+
+
+
+var ages = [10,13,18,20];
+document.write(ages + '<br>')
+var b = ages.filter(checkAdult);// to find out the number who is bigest than 18
+function checkAdult(age){
+    return age >= 18;
+}
+
+document.write(b);----->
+
+
+
+var a = [10,13,18,20];
+document.write(a + '<br>');
+document.write(typeof(a) + '<br>');
+b = a.toString();// make array to string
+document.write(typeof(b));----->
+
+
+
+
+var a = ['Shantonu','Sogib','Ontor','Osim'];
+document.write(a + '<br>');
+a.fill('Max')
+document.write(a);----->
+
+
+
+var a = ['Shantonu','Acharjee','Ojay','Ayon','Shorov'];
+document.write(a + '<br>');
+
+a.forEach(function(value){
+    document.write(value + '<br>')
+});----->
+
+
+
+
+var a = ['Shantonu','Acharjee','Ojay','Ayon','Shorov'];
+document.write(a + '<br>');
+
+a.forEach(function(value , index){
+    document.write(index + " : " + value + '<br>')
+});----->
+
+
+
+
+var a = ['Shantonu','Acharjee','Ojay','Ayon','Shorov'];
+document.write(a + '<br>');
+
+a.forEach(loop);
+ 
+function loop(value , index){
+    document.write(index + " : " + value + '<br>')
+}----->
+
+-----------------------------------------------------------------------
+
+# Java Script Objects =>
+
+var a ={
+    firstName : 'Shantonu',
+    lastName : 'Acharjee',
+    age : 18,
+    email : 'shantonuacharjee@gmail.com',
+    favMovies : ['Dhoom','Sholay','Hum'],
+    salary : function(){
+        return 25000;
+    },
+
+    fullName : function(){
+        return this.firstName + ' ' + this.lastName;
+    }
+}
+
+document.write(a + '<br>');
+console.log(a);
+document.write(a.firstName + '<br>');
+document.write(a.favMovies[1] + '<br>');
+document.write(a.salary() + '<br>');
+document.write(a.fullName());----->
+
+
+
+
+var person = new Object();
+document.write(person + '<br>');
+person.firstName = 'Shantonu';
+person.lastName = 'Acharjee';
+person.age = 25;
+document.write(person.firstName + '<br>');----->
+
+
+
+
+var student = [
+    {name : 'Shantonu', age : 18},
+    {name : 'Acharjee', age : 20},
+    {name : 'Shorov', age : 22},
+];
+
+document.write(student + '<br>');
+console.log(student);
+
+for(var a = 0; a < student.length; a++){
+    document.write(student[a].name +' '+student[a].age + '<br>');
+}----->
+
+
+
+
+const a = [1,2,3,4];
+document.write(a + '<br>');
+a[1] = 5;
+document.write(a)----->
+
+
+
+
+const a = {
+    firstName : 'Shantonu',
+    lastName : 'Acharjee',
+    age : 18,
+};
+
+document.write(a + '<br>');
+console.log(a);
+
+a.firstName = 'Limon'
+console.log(a);----->
+
+-----------------------------------------------------------
+
+# Java Script for/in loop => 
+
+var a ={
+    firstName : 'Shantou',
+    lastName : 'Acharjee',
+    age : 18,
+    country : 'Bangladesh'
+}
+
+document.write(a.firstName + '<br>');
+document.write(a.lastName + '<br>' + '<br>');
+
+for(var i in a){
+    document.write(i + ' : ' + a[i] + '<br>');
+};----->
+
+----------------------------------------------------------------------
+
+# Java Script Array -Map() Function =>
+
+var a = [1,2,3,4,5];
+var b = a.map(test);
+document.write(b);
+function test(x){
+ return x * 10;
+};----->
+
+
+
+
+var ary = [
+    {fname : 'Shantonu', lname : 'Acharjee'},
+    {fname : 'Srity', lname : 'Srinu'},
+    {fname : 'Ojay', lname : 'Deb'},
+];
+
+var b = ary.map(test);
+document.write(b + '<br>');
+
+function test(x){
+    return x.fname + ' ' + x.lname ;
+}----->
+
+----------------------------------------------------------------------------
+
+# Java Script String Methods =>
+
+There are 23 String Methods :
+
+1) length
+2) toLowerCase()
+3) toUpperCase()
+4) includes()
+5) startsWith()
+6) endsWith()
+7) search()
+8) match()
+9) indexOf()
+10) lastIndexOf()
+11) replace()
+12) trim()
+13) charAt()
+14) charCodeAt()
+15) fromCharCode()
+16) concat()
+17) split()
+18) repeat()
+19) slice()
+20) substr()
+21) substring()
+22) toSrting()
+23) valuOf()
+
+
+
+var str = 'JavaScript is a Great Language Java is';
+var str1 = '        JavaScript       ';
+var str2 = 123;
+document.write(str.length + '<br>');
+document.write(str.toLocaleLowerCase() + '<br>');
+document.write(str.toUpperCase() + '<br>');
+document.write(str.includes('is') + '<br>'); // chack 'is' is avable avable or not
+document.write(str.startsWith('Java') + '<br>'); // chack 'Java' is avable avable or not from first
+document.write(str.endsWith('Java') + '<br>'); // Chack 'Java' is avable avalbe or not from last
+document.write(str.search('is') + '<br>');
+document.write(str.match(/is/g) + '<br>'); // G means Globle
+document.write(str.indexOf('is') + '<br>');
+document.write(str.lastIndexOf('is') + '<br>');
+document.write(str.replace('JavaScript', 'PHP') + '<br>');
+document.write(str.replace(/is/g, 'are') + '<br>');
+document.write(str1.trim() + '<br>'); // remove space
+document.write(str.charAt(0) + '<br>');
+document.write(str.charCodeAt(1) + '<br>'); // find keybord word valu sky code type kore serch on google
+document.write(String.fromCharCode(65) + '<br>'); // find value to key word 65 = A
+document.write(str.concat(str1) + '<br>');
+document.write(str.split(' ') + '<br>'); // splite afer space
+document.write(str.repeat(3) + '<br>'); // repeat 3 times
+document.write(str.slice(3,10) + '<br>');
+document.write(str.substring(3,10) + '<br>');
+document.write(str2.toString() + '<br>');
+document.write(str.valueOf() + '<br>'); // pront defolt----->
+
+-----------------------------------------------------------------------------------------------
+
+# Java Script Number Methods => 
+
+There are 7 types of Methods :
+
+1) number()
+2) parseInt()
+3) parseFloat()
+4) inFinite()
+5) isInteger()
+6) toFixed(x)
+7) toPrecision(x)
+
+
+var a = '99';
+var b = '100.99';
+var c = 100.12345;
+document.write(Number(a)+ '<br>'); // make string to number
+document.write(parseInt(b) + '<br>'); // remove float valu
+document.write(parseFloat(b) + '<br>');
+document.write(Number.isFinite(b) + '<br>'); // the number is countable or not
+document.write(Number.isInteger(c)+ '<br>');
+document.write(c.toFixed(2) + '<br>'); // show 2 digit after dot
+document.write(c.toPrecision(4)) // make avarage with 4 digit----->
+
+-------------------------------------------------------------------------------------
+
+# JavaScript Math Methods =>
+
+Ther are 12 types of Math Methods :
+
+1)  ceil(x)
+2)  floor(x)
+3)  round(x)
+4)  trunc(x)
+5)  max(x,y,z, ...,n)
+6)  min(x,y,z, ...,n)
+7)  sqrt(x)
+8)  cbrt(x)
+9)  pow(x,y)
+10) random()
+11) abs(x)
+12) PI
+
+
+
+var a = 5.6;
+document.write(Math.ceil(a) + '<br>') // give nearest upper valu
+document.write(Math.floor(a) + '<br>') // give nearest down valu
+document.write(Math.round(a) + '<br>') // give nearest int valu
+document.write(Math.trunc(a) + '<br>') // give only int valu
+document.write(Math.max(1,2,3,4,5,6,7) + '<br>') // give bigest number
+document.write(Math.min(1,2,3,4,5,6,7) + '<br>') // give lowest number
+document.write(Math.sqrt(16) + '<br>') // give square root 5x5
+document.write(Math.cbrt(125) + '<br>') // cubic root 5x5x5
+document.write(Math.pow(2,3) + '<br>') // power of
+document.write(Math.random() + '<br>') // give us valu 0-1
+document.write(Math.floor(Math.random() * 10)+1 + '<br>');// give valu 1-10
+document.write(Math.abs(a) + '<br>') // give absulate valu
+document.write(Math.abs(-5.6) + '<br>') // give absulate valu 
+document.write(Math.PI + '<br>') // give Pi valu----->
+
+-------------------------------------------------------------------------------------------------------
+
+# Java Script Date Object =>
+
+There are 16 Methods :
+
+1)  toDateString()
+2)  getDate()
+3)  getFullYear()
+4)  getMonth()
+5)  getDay()
+6)  getHours()
+7)  getMinutes()
+8)  getSeconds()
+9)  getMilliseconds()
+10) setDate()
+11) setFullYear()
+12) setHours()
+13) setMilliseconds()
+14) setMinutes()
+15) setMonth()
+16) setSeconds()
+
+
+
+var now = new Date(); // for today
+document.write(now + '<br>');
+document.write(now.toDateString() + '<br>');
+document.write(now.getDate() + '<br>');
+document.write(now.getFullYear() + '<br>');
+document.write(now.getMonth() + '<br>');
+document.write(now.getDay() + '<br>');
+document.write(now.getHours() + '<br>');
+document.write(now.getMinutes() + '<br>');
+document.write(now.getSeconds() + '<br>');
+document.write(now.getMilliseconds() + '<br>');
+
+
+document.write(now + '<br>')
+now.setDate(10);//for set date
+now.setHours(14);
+document.write(now + '<br>');----->
+
+
+
+
+var now = new Date('January 5 2021'); // for this patecular date
+document.write(now + '<br>');
+document.write(now.toDateString() + '<br>');
+document.write(now.getDate() + '<br>');
+document.write(now.getFullYear() + '<br>');
+document.write(now.getMonth() + '<br>');
+document.write(now.getDay() + '<br>');----->
+
+--------------------------------------------------------------
+
+# Java Script Target Dom Object =>
+
+1) id [document.getElementById(id name)]
+2) Class Name [document.getElementsByClassName(Class name)]
+3) [document.getElementsByTagName(Tag Name)]
+
+4) document
+5) document.all
+6) document.documentElement
+7) document.head
+8) document.title
+9) document.body
+10) document.images
+11) document.anchors
+12) document.links
+13) document.forms
+14) document.doctype
+15) document.URL
+16) document.baseURI
+17) document.domain
+
+------------------------------------------------------------
+
+# Java Script Get Methods =>
+
+1) innerText
+2) innerHTML
+3) getAttribute
+4) getAttributeNode
+5) attributes
+
+var element;
+element = document.getElementById('header').getAttribute('id');
+console.log(element)----->
+
+
+var element;
+element = document.getElementById('header').getAttributeNode('id');
+console.log(element)---->
+
+
+var element;
+element = document.getElementById('header').getAttributeNode('id').value;
+console.log(element)----->
+
+
+
+
+var element;
+element = document.getElementById('header').attributes;
+console.log(element);----->
+
+
+
+
+var element;
+element = document.getElementById('header').attributes[1];
+console.log(element);----->
+
+-----------------------------------------
+
+# Java Script Set DOM Methods =>
+
+1) innerText
+2) innerHTML
+3) setAttribute
+4) attribute
+5) removeAttribute
+
+
+
+
+var element;
+element = document.getElementById('header').innerHTML = '<h1>Srity Acharjee</h1>'
+element = document.getElementById('header').innerHTML;
+console.log(element);----->
+
+
+
+
+var element;
+document.getElementById('header').setAttribute('class',"xyz");
+element = document.getElementById('header').getAttribute('class');
+console.log(element);----->
+
+
+
+
+document.getElementById('header').removeAttribute('class');
+console.log(document.getElementById('header').getAttribute('class')); // class is not found becouse we remove it----->
+
+------------------------------------------------------------------------------------------------------------
+
+# Java Script DOM Targeting Methods =>
+
+1) querySelector [document.querySelector(CSS Selector)]
+2) querySelectorAll [document.querySelectorAll(CSS Selector)]
+
+
+
+document.querySelector('#header').innerHTML = '<h1> Srity Acharjee </h1>'
+var a = document.querySelector('#header').getAttribute('class'); // querySelector target only first element
+document.write(a);----->
+
+
+
+document.querySelector('#header').innerHTML = '<h1> Srity Acharjee </h1>'
+var a = document.querySelectorAll('#header').getAttribute('class'); // querySelector target only first element
+document.write(a);-----> 
+
+--------------------------------------------------------------------------
+
+# Java Script DOM CSS Styling Methods =>
+
+1) Style
+2) className
+3) classList
+
+
+
+var a = document.querySelector('#header').style.border;
+console.log(a);-----> 
+
+
+var a = document.querySelector('#header').style.backgroundColor = 'tan';
+document.querySelector('#header').style.color = 'blue';
+console.log(a);----->
+
+
+
+
+document.querySelector('#header').className = 'abc xyz';
+console.log(document.querySelector('#header').className);----->
+
+
+
+
+document.querySelector('#header').classList = 'abc xyz';
+console.log(document.querySelector('#header').classList);----->
+
+
+document.querySelector('#header').classList.add('xyz'); // to add a new class my js
+console.log(document.querySelector('#header').className);----->
+
+
+
+document.querySelector('#header').classList.remove('abc'); // to remove a class by js
+console.log(document.querySelector('#header').className);----->
+
+------------------------------------------------------------------------------------------
+
+# Java Script Basic Events =>
+
+There are 13 types of Basic Events:
+
+1)  Click        (onclick)
+2)  Double Click (ondblclick)
+3)  Right Click  (oncontextmenu)
+4)  Mouse Hover  (onmouseenter)
+5)  Mouse Out    (onmouseout)
+6)  Mouse Down   (onmousedown)
+7)  Mouse Up     (onmouseup)
+8)  Key Press    (onkeypress)
+9)  Key Up       (onkeyup)
+10) Load         (onload)
+11) Unload       (onunload)
+12) Resize       (onresize)
+13) Scroll       (onscroll)
+
+document.getElementById(id).addEventListener('click',functionName);---->
+document.getElementById(id).removeEventListener('ondblclick',functionName);----->
+
+
+document.getElementById('header').onclick = abc;
+
+function abc(){
+    document.getElementById('header').style.color = 'red'
+};----->
+
+
+
+
+document.getElementById('header').addEventListener('click', abc);
+function abc(){
+    document.getElementById('header').style.color = 'red'
+};----->
+
+
+
+
+document.getElementById('header').addEventListener('click', abc);
+function abc(){
+    document.getElementById('header').style.color = 'red'
+};
+
+document.getElementById('header').addEventListener('click',function(){
+    this.style.border = "10px solid red";
+});----->
+
+
+
+
+document.querySelector('.inner').addEventListener('click',function(){
+    alert('Inner Div');
+},false);
+
+document.querySelector('.outer').addEventListener('click',function(){
+    alert('Outer Div');
+},false);----->
+
+
+
+
+document.getElementById('header').addEventListener('mouseleave', abc);
+document.getElementById('header').addEventListener('click',xyz);
+function abc(){
+    document.getElementById('header').style.color = 'red'
+};
+
+function xyz(){
+    document.getElementById('header').removeEventListener('mouseleave',abc);
+};----->
+
+
+------------------------------------------------------------------------------------
+
+# Java Script ClassList Methods =>
+
+
+1) add(class1, class2, ....)
+2) remove(class1, class2, ...)
+3) toggle(class)
+4) contains(class)
+5) item(index)
+6) Length
+
+
+document.getElementById('header').addEventListener('click',abc);
+
+function abc(){
+    document.getElementById('header').classList.add('xyz') // .remove('xyz')
+};----->
+
+
+
+
+var a = document.getElementById('header').classList.length;
+console.log(a);----->
+
+
+
+
+document.getElementById('header').addEventListener('click',abc);
+
+function abc(){
+    document.getElementById('header').classList.toggle('xyz') // adding toggle
+};----->
+
+
+
+
+a = document.getElementById('header').classList;
+console.log(a)
+b = document.getElementById('header').classList.item(1);
+console.log(b);----->
+
+
+
+
+b = document.getElementById('header').classList.contains('xyz'); // xyz class exist or not
+console.log(b);
+
+a = document.getElementById('header').classList.contains('abc');// abc class exist or not
+console.log(a);----->
+
+--------------------------------------------------------------------------------------------
+
+# Java Script DOM Traversal Methods =>
+
+1)  parentNode
+2)  parentElement
+3)  Children
+4)  chidNodes
+5)  firstChild
+6)  firstElementChild
+7)  lastChild
+8)  lastElementChild
+9)  nextElementSibling
+10) nextSibling
+11) previousElementSibling
+12) previousSibling 
+
+
+var a = document.getElementById('inner').parentElement; // to show parent
+console.log(a);----->
+
+
+
+document.getElementById('inner').parentElement.style.background = 'red';-----> // parentElement try to make preant & it work as a parentElement.
+
+
+
+
+var a = document.getElementById('inner-box').children;
+console.log(a);-----> 
+
+
+
+
+var a = document.getElementById('inner-box').children[0].style.color= 'red';
+console.log(a);----->
+
+
+
+
+var a = document.getElementById('inner').childNodes;
+console.log(a);----->
+
+
+
+var a = document.getElementById('inner-box').firstElementChild;
+console.log(a);----->
+
+
+
+
+document.getElementById('inner').firstElementChild.style.background = 'red';----->
+
+
+
+
+document.getElementById('inner').parentNode.style.background = 'green';----->
+
+
+
+
+var a = document.getElementById('inner-box').firstChild; // show all detals
+console.log(a);----->
+
+
+
+
+var a = document.getElementById('chikd-c').nextElementSibling; // to show next sibling
+console.log(a);----->
+
+
+
+
+var a = document.getElementById('chikd-c').previousElementSibling; // to show PREVIOUS sibling
+console.log(a);----->
+
+
+
+
+var a = document.getElementById('chikd-c').nextSibling; // to show next sibling
+console.log(a);----->
+
+--------------------------------------------------------------------------------------
+
+# Java Script DOM Create Methods =>
+
+1) createElement
+2) createTextNode
+3) createComment
+
+
+
+
+var newElement = document.createElement('p'); // create paragrap tag
+console.log(newElement);----->
+
+
+
+
+var newElement = document.createElement('h1'); // create paragrap tag use Java Script
+console.log(newElement);----->
+
+
+
+
+var newText = document.createTextNode('This is just text'); // Create text use Java Script
+console.log(newText);----->
+
+
+
+
+var newComment = document.createComment('This is comment'); // make comment use Jaca Script
+console.log(newComment);----->
+
+---------------------------------------------------------------------------------------------
+
+# Java Script DOM Append Methods =>
+
+1) appendChild
+2) insertBefore
+3) insertAdjacentElement
+4) insertAdjacentHTML
+5) insertAdjacentText
+
+
+var newElement = document.createElement('h2');
+var newText = document.createTextNode('This is just text');
+
+// appendChild add element on last
+
+newElement.appendChild(newText); // To marge to element first step
+document.getElementById('test').appendChild(newElement); // than print secont step
+
+console.log(newElement);
+console.log(newText);----->
+
+
+
+
+var newElement = document.createElement('h2');
+var newText = document.createTextNode('This is just text');
+var newComment = document.createComment('This is a comment');
+
+// appendChild add element on last
+
+newElement.appendChild(newText); // To marge to element first step
+document.getElementById('test').appendChild(newElement); // than print secont step
+document.getElementById('test').appendChild(newComment); 
+
+
+console.log(newElement);
+console.log(newText);----->
+
+
+
+
+var newElement = document.createElement('h2');
+var newText = document.createTextNode('This is just text');
+
+
+// insertBefore add element on whear you want
+
+newElement.appendChild(newText); // To marge to element first step
+var target = document.getElementById('test');
+target.insertBefore(newElement,target.childNodes[0]); //(where you want to incert, kar age insert korbo seta)
+
+
+console.log(newElement);
+console.log(newText);----->
