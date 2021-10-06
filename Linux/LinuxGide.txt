@@ -1,0 +1,11 @@
+create folder ---> mkdir
+delete emty folder ---> rmdir
+delete folder ---> rm file name/ -rf
+delete file ---> rm file name
+copy file ---> cp file name destenashon folder name
+move file ---> mv file name destenashon folder name
+rename file ---> mv file name new name
+
+
+update sestem ---> sudo apt upgrade
+		   sudo apt update
