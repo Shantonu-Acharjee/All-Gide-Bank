@@ -1,0 +1,31 @@
+install Virtual environment wrapper ---> pip install virtualenvwrapper-win
+                                         pip uninstall virtualenvwrapper-win
+
+create virtual environment ---> mkvirtualenv envname
+                                rmvirtualenv envname
+
+activate environment ---> workon envname
+
+Install Django ---> pip install django 
+                    pip uninstall django
+
+Install Specify Django Version ---> pip install django==2.0
+                                    pip uninstall django==2.0
+ 
+Show Django Version ---> 
+
+Make A New Project ---> django-admin startproject projectname
+
+
+
+python manage.py migrate
+
+python manage.py runserver
+http://127.0.0.1:8000/
+
+python manage.py runserver 5555
+http://127.0.0.1:5555/
+
+ctrl + c to stop Server
+
+python manage.py startapp appname
