@@ -1,0 +1,2 @@
+heroku login
+worker: python main.py
