@@ -76,3 +76,26 @@ git stash pop[stash number] // recycle the paticular stash file
 
 touch .gitignore // to create git ignore file
 git push -u origin master // to push the code
+
+
+-----------------------------------------------------------------
+For Big File
+
+git lfs install
+git lfs track "*.psd"
+git add .gitattributes
+
+
+
+git add file.psd
+git commit -m "Add design file"
+git push origin main
+
+------------------------------------------------
+echo "# shantonuacharjee1-Python-Artificial-Girlfriend-Borsha" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shantonuacharjee1/shantonuacharjee1-Python-Artificial-Girlfriend-Borsha.git
+git push -u origin main
