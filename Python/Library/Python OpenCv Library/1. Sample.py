@@ -8,4 +8,4 @@ k = cv2.waitKey(0) & 0xFF
 if k == ord('q'):
     cv2.destroyAllWindows()
 
-cv2.imwrite('lena_copy.png', img)
+cv2.imwrite('Photo\lena_copy.png', img)
