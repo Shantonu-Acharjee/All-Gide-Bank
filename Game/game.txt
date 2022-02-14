@@ -1,0 +1,20 @@
+
+
+
+		 "wait 10",
+
+Glue button ---> "tap 72.32 83.77",
+Sit up      ---> "tap 97.1 72.83",
+Left fire   ---> "tap 23.99 43.1",
+Relode      ---> "tap 84 82.43",
+
+
+
+
+
+
+
+
+
+
+

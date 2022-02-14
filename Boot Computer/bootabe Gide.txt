@@ -1,0 +1,1 @@
+sudo dd if=Parrot-security-4.10_amd64.iso of=/dev/sdb bs=1M
