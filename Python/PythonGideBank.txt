@@ -21,3 +21,11 @@ pip freeze > requirements.txt # To make requirements.txt file
 pip install -r .\requirements.txt # To install all liberry from requirements.txt file
 
 
+
+
+
+conda create -n chatbot python=3.6
+conda activate chatbot
+conda deactivate
+
+

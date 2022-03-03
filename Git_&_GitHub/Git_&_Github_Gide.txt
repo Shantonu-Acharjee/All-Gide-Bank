@@ -1,4 +1,4 @@
-Tokan = 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
+
 
 Work Directory ---> Staging Area ---> Local Repository ---> Remote Repository
 ------------------------------------------------------------------------------
