@@ -1,0 +1,11 @@
+Bord Name :- NodeMcu 1.0 (ESP-12E Module)
+
+#include <ESP8266WiFi.h>
+WiFi.begin("WiFiName", "WiFiPassword");
+
+
+WiFi.status();
+Values: 
+1) WL_CONNECTED
+2) WL_IDLE_STATUS
+3) WL_CONNECT_FAILED
