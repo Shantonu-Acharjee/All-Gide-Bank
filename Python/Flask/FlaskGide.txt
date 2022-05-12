@@ -1,0 +1,9 @@
+Set-ExecutionPolicy unrestricted
+pip install virtualenv
+virtualenv env
+env/Scripts/activate
+
+
+
+pip install flask
+pip install Flask-SQLAlchemy

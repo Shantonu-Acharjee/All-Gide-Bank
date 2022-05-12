@@ -9,7 +9,7 @@ Staging Area     ---> Local Repository  => git commit
 Local Repository ---> Remote Repository => git push
 
 
-Work Directory   ---> Local Repository  => git mearge
+Work Directory   ---> Local Repository  => git merge
 
 
 ------------------------------------------------------------------------------
@@ -97,5 +97,6 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/shantonuacharjee1/shantonuacharjee1-Python-Artificial-Girlfriend-Borsha.git
+git remote add origin https://github.com/Shantonu-Acharjee/House_Price_Prediction_Useing_ML.git
 git push -u origin main
+

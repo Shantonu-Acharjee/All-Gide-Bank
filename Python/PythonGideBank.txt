@@ -1,11 +1,11 @@
 pip install virtualenv # To install virtualenv
-virtualenv OpenCvEnv # Create virtualenv
+virtualenv env# Create virtualenv
 virtualenv --system-site-packages OpenCvEnv # Create OpenCvEnv with all system packages
 
 Open CMD With Sudo Power # First Time virtualenv will not run
 set-executionpolicy remotesigned # Run this command
 
-.\OpenCvEnv\Scripts\activate # Activate virtualenv
+.\env\Scripts\activate # Activate virtualenv
 
 OpenCvEnv\Scripts\python.exe # Set this virtualenv in your ide
 
